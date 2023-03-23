@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+    <header id="header" class="header">
+        <figure class="header__logo">
+            <img src="img/logo.png" alt="Logo" id="header-img">
+            <p>MORCILLAS <strong>FENBA</strong></p>
+        </figure>
+        <nav id="nav-bar" class="header__nav">
+            <ul class="nav__list">
+                <li class="nav-link"><a href="#services">Servicios</a></li>
+                <li class="nav-link"><a href="#work">Trabajo</a></li>
+                <li class="nav-link"><a href="#price">Precio</a></li>
+            </ul>
+        </nav>
+        <a href="#" id="box-model" class="menu">
+            <span class="material-symbols-rounded icon-menu">menu</span>
+        </a>
+    </header>
+
+    <main id="main">
+        <form action="https://www.freecodecamp.com/email-submit" id="form" class="main__form">
+            <h1 class="form__title">
+                ¡No te pierdas ninguna de nuestras deliciosas creaciones! Regístrate para recibir actualizaciones exclusivas y ofertas especiales
+            </h1>
+            <input type="email" id="email" name="email" placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <input type="submit" value="Get Started" id="submit">
+        </form>
+        <h2 class="services__title" id="services">Sabor auténtico de Boyacá</h2>
+        <section class="section__services" >
+            <article class="article__service">
+                <figure class="article__img">
+                    <img src="img/presentacion.png" alt="presentacion-producto">
+                </figure>
+                <div class="article__info">
+                    <h2 class="article__title">Presentación</h2>
+                    <p class="article__description">
+                        En nuestro restaurante, no solo te ofrecemos auténticos sabores de Boyacá, sino también un servicio excepcional. Nuestro equipo se enfoca en brindar una presentación impecable y cordial para que te sientas como en casa.
+                    </p>
+                </div>
+            </article>
+            <article class="article__service">
+                <figure class="article__img">
+                    <img src="img/rapidex.png" alt="rapidez-producto">
+                </figure>
+                <div class="article__info">
+                    <h2 class="article__title">Entrega</h2>
+                    <p class="article__description">
+                        Además, nos esforzamos por ser rápidos y eficientes para que no tengas que esperar mucho tiempo para disfrutar de tu comida.
+                    </p>
+                </div>
+            </article>
+            <article class="article__service">
+                <figure class="article__img">
+                    <img src="img/frescura.png" alt="frescura-producto">
+                </figure>
+                <div class="article__info">
+                    <h2 class="article__title">Frescura</h2>
+                    <p class="article__description">
+                        Nuestros platos se preparan con ingredientes frescos y se cocinan en el momento para que disfrutes de una experiencia culinaria única en cada bocado. Ven a probar la verdadera cocina boyacense con nuestro servicio excepcional. ¡Te esperamos!
+                    </p>
+                </div>
+            </article>
+        </section>
+        <h2 class="services__title" id="work">Nuestra producción</h2>
+        <section class="section__trabajo">
+            <video src="media/¿La MEJOR MORCILLA del País - Tulio Recomienda.mp4" id="video" controls></video>
+        </section>
+
+        <h2 class="services__title" id="price">Nuestras ofertas</h2>
+        <section class="section__card">
+            <article class="article__card">
+                <h3 class="card__title">Morcilla Boyacense</h3>
+                <figure class="card__img">
+                    <img src="img/mocilla.jpg" alt="">
+                </figure>
+                <div class="price">
+                    <p class="card__price">$10</p>
+                    <div class="star">
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                    </div>
+                </div>
+                <p class="card__texto">Morcilla <strong>5 unidades</strong></p>
+                <p class="card__texto">Criolla <strong>15 unidades</strong></p>
+                <p class="card__texto">Ají <strong>1 unidad</strong></p>
+                <button class="btn-primary">Selecciona</button>
+            </article>
+            <article class="article__card">
+                <h3 class="card__title">Picada Boyacense</h3>
+                <div class="hot">
+                    <p>Promoción</p>
+                </div>
+                <figure class="card__img">
+                    <img src="img/mocilla.jpg" alt="">
+                </figure>
+                <div class="price">
+                    <p class="card__price">$25</p>
+                    <div class="star">
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                    </div>
+                </div>
+                <p class="card__texto">Morcilla <strong>5 unidades</strong></p>
+                <p class="card__texto">Longaniza <strong>1 unidades</strong></p>
+                <p class="card__texto">Ají <strong>2 unidad</strong></p>
+                <button class="btn-primary">Selecciona</button>
+            </article>
+            <article class="article__card">
+                <h3 class="card__title">Longaniza Boyacense</h3>
+                <figure class="card__img">
+                    <img src="img/mocilla.jpg" alt="">
+                </figure>
+                <div class="price">
+                    <p class="card__price">$13</p>
+                    <div class="star">
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                        <span class="material-symbols-rounded">star</span>
+                    </div>
+                </div>
+                <p class="card__texto">Longaniza <strong>1 unidades</strong></p>
+                <p class="card__texto">Criolla <strong>15 unidades</strong></p>
+                <p class="card__texto">Ají <strong>1 unidad</strong></p>
+                <button class="btn-primary">Selecciona</button>
+            </article>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__info">
+            <figure class="header__logo">
+                <img src="img/logo.png" alt="icon-logo">
+                <p>MORCILLAS <strong>FENBA</strong></p>                
+            </figure>
+            <ul class="list">
+                <li class="list__link"><a href="#services">Servicios</a></li>
+                <li class="list__link"><a href="#work">Trabajo</a></li>
+                <li class="list__link"><a href="#price">Precio</a></li>
+            </ul>
+        </div>
+        <p class="copy">Copyright 2023, Morcillas <strong>FENBA</strong></p>
+    </footer>
+
+    <script>
+       let menu = document.querySelector('#box-model');
+        let nav = document.querySelector('.header__nav');
+        let main = document.querySelector('#main');
+        let colormenu = document.querySelector('.icon-menu');
+
+        menu.onclick =() =>{
+            menu.classList.toggle('menu');
+            nav.classList.toggle('open');
+            main.classList.toggle('distance');
+            colormenu.classList.toggle('color');
+        }
+    </script>
+</body>
+</html>
